@@ -40,4 +40,5 @@ jobs:
       # run tests!
       - run: mvn integration-test
       - store_artifacts:
-          path: target/xxx-0.1.0-SNAPSHOT.jar
+          path: target/corenlp-server-0.0.1-jar-with-dependencies.jar
+
